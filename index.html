@@ -13,13 +13,14 @@
     <h1>UNCO Student Study Planner</h1>
     <p>Stay organized. Stay on track.</p>
   </header>
+  
   <nav aria-label="Main navigation">
     <a href="#dashboard">Dashboard</a>
     <a href="#classes">Classes</a>
     <a href="#assignments">Assignments</a>
     <a href="#calendar">Calendar</a>
   </nav>
-
+  
   <main>
     <section id="dashboard">
       <h2>Student Dashboard</h2>
@@ -44,3 +45,23 @@
         </div>
       </div>
     </section>
+
+    <section id="classes">
+      <h2>My Classes</h2>
+
+      <form id="classForm" class="card">
+        <h3>Add a Class</h3>
+
+        <label for="className">Class Name</label>
+        <input id="className" required
+               placeholder="Web Programming">
+
+        <label for="courseCode">Course Code</label>
+        <input id="courseCode" required
+               placeholder="BACS 350">
+
+        <label for="classColor">Class Color</label>
+        <input id="classColor" type="color"
+               value="#2563eb">
+
+    
