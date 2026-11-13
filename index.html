@@ -13,3 +13,34 @@
     <h1>UNCO Student Study Planner</h1>
     <p>Stay organized. Stay on track.</p>
   </header>
+  <nav aria-label="Main navigation">
+    <a href="#dashboard">Dashboard</a>
+    <a href="#classes">Classes</a>
+    <a href="#assignments">Assignments</a>
+    <a href="#calendar">Calendar</a>
+  </nav>
+
+  <main>
+    <section id="dashboard">
+      <h2>Student Dashboard</h2>
+      <p>Welcome to your study planner!</p>
+
+      <div class="dashboard-grid">
+        <div class="card">
+          <h3>Today's Schedule</h3>
+          <ul id="todaySchedule"></ul>
+        </div>
+
+        <div class="card">
+          <h3>Semester Progress</h3>
+          <progress id="progressBar"
+                    value="0" max="100"></progress>
+          <p id="progressText">0% complete</p>
+        </div>
+
+        <div class="card">
+          <h3>Upcoming Assignments</h3>
+          <ul id="upcomingAssignments"></ul>
+        </div>
+      </div>
+    </section>
